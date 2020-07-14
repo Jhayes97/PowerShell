@@ -29,6 +29,6 @@ Also known as AS-REP roasting, your organization is in big trouble if this misco
 *credit to the awesome team at ADSecurity.org for the graphic.*
 
 
-# More to come
+# *Much* More to come
 
 I plan on splitting time between this and development on the Quick-Wins script, with the culminating goal of them complementing each other.
