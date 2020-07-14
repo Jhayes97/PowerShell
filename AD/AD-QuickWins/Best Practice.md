@@ -9,14 +9,24 @@ https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/ad-forest-
 
 https://www.youtube.com/watch?v=kp5d8Yv3-0c
 
-## Golden Ticket Attack
+### Golden Ticket Attack
 If complete Domain compromise is accomplished and the krbtgt NTLM hash stolen, an attacker can begin forging their own tickets. This is a powerful persistence method.
 
 https://attack.stealthbits.com/how-golden-ticket-attack-works/
 
 https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse/kerberos-golden-tickets
 
-## Changing the krbtgt password
+### Changing the krbtgt password
+lorem ipsum
+![alt text](https://github.com/Jhayes97/PowerShell/blob/master/src/img/krbtgtreset.PNG "Resetting the krbtgt password")
+lorem ipsum
+
+# Kerberos Pre-Authentication not required
+
+Also known as AS-REP roasting, your organization is in big trouble if this misconfiguration is present. The secondary sobriquet comes from the mix of Kerbe*roasting* and the second step seen below in the Kerberos protocol for generating tickets.
+ 
+![alt text](https://github.com/Jhayes97/PowerShell/blob/master/src/img/Visio-KerberosComms.png "Praise Sean Metcalf")
+*credit to the awesome team at ADSecurity.org for the graphic.*
 
 
 # More to come
