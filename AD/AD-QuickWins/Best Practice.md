@@ -28,6 +28,11 @@ Also known as AS-REP roasting, your organization is in big trouble if this misco
 ![alt text](https://github.com/Jhayes97/PowerShell/blob/master/src/img/Visio-KerberosComms.png "Praise Sean Metcalf")
 *credit to the awesome team at ADSecurity.org for the graphic.*
 
+Although not enabled by default, if enabled attackers can crack the hash of the account's password. An in-depth explanation and demonstration of exploiting the vulnerability with the impacket suite script GetNPUsers.py can be found by the very informational VB Scrub at the link below.
+
+https://www.youtube.com/watch?v=pZSyGRjHNO4
+
+
 
 # *Much* More to come
 
