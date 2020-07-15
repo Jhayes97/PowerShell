@@ -1,7 +1,7 @@
 # Delinquent krbtgt password
 
 The krbtgt account is created when a new domain is created. Below are more resources explaining how Kerberos works as an identity authenticator, and certain attacks targetting a stale krbtgt password. It is strongly recommended to absorb all of the posted resources below, however in short in order to issue Kerberos tickets, there needs to be a security principle for the Domain Controller to validate each ticket. This, alongside a few other things, is the krbtgt password hash.
-If the krbtgt hash is compromised, so likely is the entire AD environment. Microsoft recommends resetting the password(s) every 180 days.
+If the krbtgt hash is compromised, so likely is the entire AD environment. STIG Windows Server 2016 recommends resetting the password(s) every 180 days.
 
 https://adsecurity.org/?p=483\
 
@@ -17,7 +17,7 @@ https://attack.stealthbits.com/how-golden-ticket-attack-works/
 https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse/kerberos-golden-tickets
 
 ### Changing the krbtgt password
-The password that you specify is not important, as the system will generate a psuedo-random 128 character password for the krbtgt account. These steps are considered the absolute lowest impact to production, although abundently slow.
+The password that you specify is not important, as the system will generate a "strong password" for the krbtgt account. These steps are considered the absolute lowest impact to production, although abundently slow.
 
 1. Confirm prior to reset that the domain controllers are all replicating with the command "Repadmin /replsummary"
 2. Reset the password of the krbtgt account one time
