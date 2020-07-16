@@ -1,4 +1,8 @@
-# Delinquent krbtgt password
+# Kerberoasting 
+Lorem Ipsum
+
+
+# Delinquent *krbtgt* Password
 
 The krbtgt account is created when a new domain is created. Below are more resources explaining how Kerberos works as an identity authenticator, and certain attacks targetting a stale krbtgt password. It is strongly recommended to absorb all of the posted resources below, however in short in order to issue Kerberos tickets, there needs to be a security principle for the Domain Controller to validate each ticket. This, alongside a few other things, is the krbtgt password hash.
 If the krbtgt hash is compromised, so likely is the entire AD environment. STIG Windows Server 2016 recommends resetting the password(s) every 180 days.
@@ -16,7 +20,7 @@ https://attack.stealthbits.com/how-golden-ticket-attack-works/
 
 https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse/kerberos-golden-tickets
 
-### Changing the krbtgt password
+### Changing The *krbtgt* Password
 The password that you specify is not important, as the system will generate a "strong password" for the krbtgt account. These steps are considered the absolute lowest impact to production, although abundently slow.
 
 1. Confirm prior to reset that the domain controllers are all replicating with the command "Repadmin /replsummary"
@@ -29,7 +33,7 @@ The password that you specify is not important, as the system will generate a "s
 
 https://adsecurity.org/?p=3458
 
-# Kerberos Pre-Authentication not required
+# Kerberos Pre-Authentication Not Required
 
 Also known as AS-REP roasting, your organization is in big trouble if this misconfiguration is present. The secondary sobriquet comes from the mix of Kerbe*roasting* and the second step seen below in the Kerberos protocol for generating tickets.
  
@@ -40,6 +44,15 @@ Although not enabled by default, if enabled attackers can crack the hash of the 
 
 https://www.youtube.com/watch?v=pZSyGRjHNO4
 
+
+# Accounts With No Password Policy
+Lorem Ipsum
+
+# LAPS Not Deployed
+Lorem Ipsum
+
+# Reversible Encryption
+Lorem Ipsum
 
 
 # *Much* More to come
