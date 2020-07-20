@@ -46,7 +46,11 @@ https://www.youtube.com/watch?v=pZSyGRjHNO4
 
 
 # Accounts With No Password Policy
-Lorem Ipsum
+Accounts no password required can be set with a blank password by a Domain Admin (Regular users do not have this right.) creating a massive hole in the security of the environment, with a free foothold to the threat actor.
+
+https://activedirectoryfaq.com/2013/12/empty-password-in-active-directory-despite-activated-password-policy/
+https://evotec.xyz/fixing-active-directory-passwordnotrequired-with-powershell/
+
 
 # LAPS Not Deployed
 Lorem Ipsum
