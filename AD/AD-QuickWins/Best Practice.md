@@ -57,7 +57,7 @@ Lorem Ipsum
 
 # Reversible Encryption
 
-Allows an attacker with appropriate access to retrieve the plaintext version of an account's password. This adds a large porition to the attack surface of the environment. 
+Allows an attacker with appropriate access to retrieve the plaintext version of an account's password. This adds to the attack surface of the environment. 
 
 
 https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/store-passwords-using-reversible-encryption
