@@ -64,6 +64,14 @@ Allows an attacker with appropriate access to retrieve the plaintext version of 
 
 https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/store-passwords-using-reversible-encryption
 
+# Schema Admin membership
+
+Members of the Schema Admin group are able to Modify the Domain's Schema, which is the underlying structure for the Directory Service. Changes to the schema are so occassionally required that it is common threat-surface-reduction sense to leave this group empty unless actively modifying the schema. By default, only the built in Domain Admin account is in this group. Were lingering accounts in this group to be compromised, forest restoration would become much more involved.
+
+https://docs.microsoft.com/en-us/services-hub/health/remediation-steps-ad/remove-all-members-from-the-schema-admins-group-unless-you-are-actively-changing-the-schema
+
+
+
 # *Much* More to come
 
 I plan on splitting time between this and development on the Quick-Wins script, with the culminating goal of them complementing each other.
