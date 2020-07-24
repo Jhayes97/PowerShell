@@ -53,6 +53,9 @@ https://activedirectoryfaq.com/2013/12/empty-password-in-active-directory-despit
 
 https://evotec.xyz/fixing-active-directory-passwordnotrequired-with-powershell/
 
+# Protected Users Group Not Being Utilized
+Lorem Ipsum
+
 
 # LAPS Not Deployed
 Lorem Ipsum
@@ -64,7 +67,7 @@ Allows an attacker with appropriate access to retrieve the plaintext version of 
 
 https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/store-passwords-using-reversible-encryption
 
-# Schema Admin membership
+# Schema Admin Membership
 
 Members of the Schema Admin group are able to Modify the Domain's Schema, which is the underlying structure for the Directory Service. Changes to the schema are so occassionally required that it is common threat-surface-reduction sense to leave this group empty unless actively modifying the schema. By default, only the built in Domain Admin account is in this group. Were lingering accounts in this group to be compromised, forest restoration would become much more involved.
 
