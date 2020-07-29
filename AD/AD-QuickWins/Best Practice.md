@@ -73,6 +73,31 @@ Members of the Schema Admin group are able to Modify the Domain's Schema, which 
 
 https://docs.microsoft.com/en-us/services-hub/health/remediation-steps-ad/remove-all-members-from-the-schema-admins-group-unless-you-are-actively-changing-the-schema
 
+# Accounts with Passwords that never expire
+Lorem Ipsum
+
+# Delegation
+Lorem Ipsum
+
+### Constrained Delegation
+Lorem Ipsum
+
+### Unconstrained Delegation
+Lorem Ipsum
+
+
+# Legacy Operating Systems
+Lorem Ipsum
+
+# Domain-Functional Level
+Lorem Ipsum
+# Group Managed Service Accounts/Managed Service Accounts
+Lorem Ipsum
+
+
+# Limiting Domain Admin Count
+Lorem Ipsum
+
 
 
 # *Much* More to come
