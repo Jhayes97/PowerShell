@@ -96,8 +96,12 @@ Lorem Ipsum
 
 
 # Limiting Domain Admin Count
-Lorem Ipsum
+Reducing the attack surface of your organization is key in the security lifecycle. Making certain that user/service accounts don't have more permissions than needed for operations is a necessary foundation for a mature AD environment. Sean Metcalf does a great dissection about the powercreep vendors tend to take when listing account requirements in the blog post below. 
 
+https://adsecurity.org/?p=4115
+
+# Microsoft's Administrative tier-model
+Lorem Ipsum
 
 
 # *Much* More to come
