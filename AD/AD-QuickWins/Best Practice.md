@@ -103,6 +103,10 @@ https://adsecurity.org/?p=4115
 # Microsoft's Administrative tier-model
 Lorem Ipsum
 
+# GPP Hacking
+Lorem Ipsum
+
+https://blog.rapid7.com/2016/07/27/pentesting-in-the-real-world-group-policy-pwnage/
 
 # *Much* More to come
 
